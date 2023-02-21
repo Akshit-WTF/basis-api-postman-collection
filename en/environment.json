@@ -1,10 +1,10 @@
 {
 	"id": "b4ee7f99-cf42-4eb2-86c3-67d052f7d7b0",
-	"name": "Green API Developer",
+	"name": "Basis API Developer",
 	"values": [
 		{
 			"key": "host",
-			"value": "https://api.green-api.com",
+			"value": "https://api.basis-api.com",
 			"enabled": true
 		},
 		{

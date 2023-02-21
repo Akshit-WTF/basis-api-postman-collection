@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "642a1e10-b091-481d-9f61-b4cf26ebb695",
-		"name": "Green API",
+		"name": "Basis API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "16921255"
 	},
@@ -25,7 +25,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetSettings](https://green-api.com/docs/api/account/GetSettings/)"
+						"description": "Документация [GetSettings](https://cabinet.basis-api.com/docs/en/api/account/GetSettings/)"
 					},
 					"response": [
 						{
@@ -71,7 +71,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"wid\": \"79001234567@c.us\", \n    \"countryInstance\": \"ru\",\n    \"typeAccount\": \"vip\",\n    \"webhookUrl\": \"https://mysite.com/webhook/green-api/\",\n    \"delaySendMessagesMilliseconds\": 3000,\n    \"markIncomingMessagesReaded\": \"yes\",\n    \"outgoingWebhook\": \"yes\",\n    \"stateWebhook\": \"yes\",\n    \"incomingWebhook\": \"yes\",\n    \"deviceWebhook\": \"no\"\n}"
+							"body": "{\n    \"wid\": \"79001234567@c.us\", \n    \"countryInstance\": \"ru\",\n    \"typeAccount\": \"vip\",\n    \"webhookUrl\": \"https://mysite.com/webhook/basis-api/\",\n    \"delaySendMessagesMilliseconds\": 3000,\n    \"markIncomingMessagesReaded\": \"yes\",\n    \"outgoingWebhook\": \"yes\",\n    \"stateWebhook\": \"yes\",\n    \"incomingWebhook\": \"yes\",\n    \"deviceWebhook\": \"no\"\n}"
 						}
 					]
 				},
@@ -100,7 +100,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SetSettings](https://green-api.com/docs/api/account/SetSettings/)"
+						"description": "Документация [SetSettings](https://cabinet.basis-api.com/docs/en/api/account/SetSettings/)"
 					},
 					"response": [
 						{
@@ -175,7 +175,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetStateInstance](https://green-api.com/docs/api/account/GetStateInstance/)"
+						"description": "Документация [GetStateInstance](https://cabinet.basis-api.com/docs/en/api/account/GetStateInstance/)"
 					},
 					"response": [
 						{
@@ -241,7 +241,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [Reboot](https://green-api.com/docs/api/account/Reboot/)"
+						"description": "Документация [Reboot](https://cabinet.basis-api.com/docs/en/api/account/Reboot/)"
 					},
 					"response": [
 						{
@@ -307,7 +307,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [Logout](https://green-api.com/docs/api/account/Logout/)"
+						"description": "Документация [Logout](https://cabinet.basis-api.com/docs/en/api/account/Logout/)"
 					},
 					"response": [
 						{
@@ -373,7 +373,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [QR](https://green-api.com/docs/api/account/QR/)"
+						"description": "Документация [QR](https://cabinet.basis-api.com/docs/en/api/account/QR/)"
 					},
 					"response": []
 				}
@@ -416,7 +416,7 @@
 										"{{apiTokenInstance}}"
 									]
 								},
-								"description": "Документация [SendMessage](https://green-api.com/docs/api/sending/SendMessage/)"
+								"description": "Документация [SendMessage](https://cabinet.basis-api.com/docs/en/api/sending/SendMessage/)"
 							},
 							"response": [
 								{
@@ -503,7 +503,7 @@
 										"{{apiTokenInstance}}"
 									]
 								},
-								"description": "Документация [SendMessage](https://green-api.com/docs/api/sending/SendMessage/)"
+								"description": "Документация [SendMessage](https://cabinet.basis-api.com/docs/en/api/sending/SendMessage/)"
 							},
 							"response": [
 								{
@@ -575,7 +575,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n\t\"chatId\": \"71234567891c.us\",\r\n    \"title\": \"Title\",\r\n\t\"message\": \"Hello\",\r\n    \"footer\": \"What kind of action will you choose?\",\r\n    \"templateButtons\": [\r\n          \r\n            {\"index\": 1, \"urlButton\": {\"displayText\": \"⭐ Star us on GitHub!\", \"url\": \"https://github.com/green-api/docs\"}},\r\n            {\"index\": 2, \"callButton\": {\"displayText\": \"Call us\", \"phoneNumber\": \"+1 (234) 5678-901\"}},\r\n            {\"index\": 3, \"quickReplyButton\": {\"displayText\": \"Plain button\", \"id\": \"plainButtonId\"}}\r\n        ]\r\n}",
+									"raw": "{\r\n\t\"chatId\": \"71234567891c.us\",\r\n    \"title\": \"Title\",\r\n\t\"message\": \"Hello\",\r\n    \"footer\": \"What kind of action will you choose?\",\r\n    \"templateButtons\": [\r\n          \r\n            {\"index\": 1, \"urlButton\": {\"displayText\": \"⭐ Star us on GitHub!\", \"url\": \"https://github.com/Yard-Tean/docs\"}},\r\n            {\"index\": 2, \"callButton\": {\"displayText\": \"Call us\", \"phoneNumber\": \"+1 (234) 5678-901\"}},\r\n            {\"index\": 3, \"quickReplyButton\": {\"displayText\": \"Plain button\", \"id\": \"plainButtonId\"}}\r\n        ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -593,7 +593,7 @@
 										"{{apiTokenInstance}}"
 									]
 								},
-								"description": "Документация [SendMessage](https://green-api.com/docs/api/sending/SendMessage/)"
+								"description": "Документация [SendMessage](https://cabinet.basis-api.com/docs/en/api/sending/SendMessage/)"
 							},
 							"response": [
 								{
@@ -679,7 +679,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SendMessage](https://green-api.com/docs/api/sending/SendMessage/)"
+						"description": "Документация [SendMessage](https://cabinet.basis-api.com/docs/en/api/sending/SendMessage/)"
 					},
 					"response": [
 						{
@@ -766,7 +766,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SendMessage](https://green-api.com/docs/api/sending/SendMessage/)"
+						"description": "Документация [SendMessage](https://cabinet.basis-api.com/docs/en/api/sending/SendMessage/)"
 					},
 					"response": [
 						{
@@ -853,7 +853,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SendMessage](https://green-api.com/docs/api/sending/SendMessage/)"
+						"description": "Документация [SendMessage](https://cabinet.basis-api.com/docs/en/api/sending/SendMessage/)"
 					},
 					"response": [
 						{
@@ -937,7 +937,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SendContact](https://green-api.com/docs/api/sending/SendContact/)"
+						"description": "Документация [SendContact](https://cabinet.basis-api.com/docs/en/api/sending/SendContact/)"
 					},
 					"response": [
 						{
@@ -1044,7 +1044,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SendFileByUpload](https://green-api.com/docs/api/sending/SendFileByUpload/)"
+						"description": "Документация [SendFileByUpload](https://cabinet.basis-api.com/docs/en/api/sending/SendFileByUpload/)"
 					},
 					"response": [
 						{
@@ -1144,7 +1144,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SendFileByUrl](https://green-api.com/docs/api/sending/SendFileByUrl/)"
+						"description": "Документация [SendFileByUrl](https://cabinet.basis-api.com/docs/en/api/sending/SendFileByUrl/)"
 					},
 					"response": [
 						{
@@ -1228,7 +1228,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SendLocation](https://green-api.com/docs/api/sending/SendLocation/)"
+						"description": "Документация [SendLocation](https://cabinet.basis-api.com/docs/en/api/sending/SendLocation/)"
 					},
 					"response": [
 						{
@@ -1294,7 +1294,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"chatId\": \"790012345672@c.us\",\r\n\t\"urlLink\": \"https://green-api.com\"\r\n}\r\n",
+							"raw": "{\r\n\t\"chatId\": \"790012345672@c.us\",\r\n\t\"urlLink\": \"https://basis-api.com\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1312,7 +1312,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SendLink](https://green-api.com/docs/api/sending/SendLink/)"
+						"description": "Документация [SendLink](https://cabinet.basis-api.com/docs/en/api/sending/SendLink/)"
 					},
 					"response": [
 						{
@@ -1395,7 +1395,7 @@
 										"{{apiTokenInstance}}"
 									]
 								},
-								"description": "Документация [ReceiveNotification](https://green-api.com/docs/api/receiving/technology-http-api/ReceiveNotification/)"
+								"description": "Документация [ReceiveNotification](https://cabinet.basis-api.com/docs/en/api/receiving/technology-http-api/ReceiveNotification/)"
 							},
 							"response": []
 						},
@@ -1416,7 +1416,7 @@
 										"{{receiptId}}"
 									]
 								},
-								"description": "Документация [DeleteNotification](https://green-api.com/docs/api/receiving/technology-http-api/DeleteNotification/)"
+								"description": "Документация [DeleteNotification](https://cabinet.basis-api.com/docs/en/api/receiving/technology-http-api/DeleteNotification/)"
 							},
 							"response": []
 						}
@@ -1441,7 +1441,7 @@
 										"{{idMessage}}"
 									]
 								},
-								"description": "Документация [DownloadFile](https://green-api.com/docs/api/receiving/files/DownloadFile/)"
+								"description": "Документация [DownloadFile](https://cabinet.basis-api.com/docs/en/api/receiving/files/DownloadFile/)"
 							},
 							"response": []
 						}
@@ -1477,7 +1477,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetChatHistory](https://green-api.com/docs/api/journals/GetChatHistory/)"
+						"description": "Документация [GetChatHistory](https://cabinet.basis-api.com/docs/en/api/journals/GetChatHistory/)"
 					},
 					"response": [
 						{
@@ -1552,7 +1552,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [LastOutgoingMessages](https://green-api.com/docs/api/journals/LastOutgoingMessages/)"
+						"description": "Документация [LastOutgoingMessages](https://cabinet.basis-api.com/docs/en/api/journals/LastOutgoingMessages/)"
 					},
 					"response": [
 						{
@@ -1618,7 +1618,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [LastIncomingMessages](https://green-api.com/docs/api/journals/LastIncomingMessages/)"
+						"description": "Документация [LastIncomingMessages](https://cabinet.basis-api.com/docs/en/api/journals/LastIncomingMessages/)"
 					},
 					"response": [
 						{
@@ -1709,7 +1709,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [ClearMessagesQueue](https://green-api.com/docs/api/queues/ClearMessagesQueue/)"
+						"description": "Документация [ClearMessagesQueue](https://cabinet.basis-api.com/docs/en/api/queues/ClearMessagesQueue/)"
 					},
 					"response": [
 						{
@@ -1775,7 +1775,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [ShowMessagesQueue](https://green-api.com/docs/api/queues/ShowMessagesQueue/)"
+						"description": "Документация [ShowMessagesQueue](https://cabinet.basis-api.com/docs/en/api/queues/ShowMessagesQueue/)"
 					},
 					"response": [
 						{
@@ -1837,7 +1837,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"groupId\": \"79001234567-1587570015@g.us\",\r\n\t\"groupName\": \"Group created by Green API+\"\r\n}",
+							"raw": "{\r\n\t\"groupId\": \"79001234567-1587570015@g.us\",\r\n\t\"groupName\": \"Group created by Basis API+\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1855,7 +1855,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [UpdateGroupName](https://green-api.com/docs/api/groups/UpdateGroupName/)"
+						"description": "Документация [UpdateGroupName](https://cabinet.basis-api.com/docs/en/api/groups/UpdateGroupName/)"
 					},
 					"response": [
 						{
@@ -1939,7 +1939,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetGroupData](https://green-api.com/docs/api/groups/GetGroupData/)"
+						"description": "Документация [GetGroupData](https://cabinet.basis-api.com/docs/en/api/groups/GetGroupData/)"
 					},
 					"response": [
 						{
@@ -1994,7 +1994,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n\t\"groupId\": \"79001234567-1587570015@g.us\",\n\t\"owner\": \"79001234567@c.us\",\n\t\"subject\": \"Green API Group\",\n\t\"creation\": 1587570015,\n\t\"participants\": [\n\t\t{\n\t\t\t\"id\": \"79001234567@c.us\",\n\t\t\t\"isAdmin\": true,\n\t\t\t\"isSuperAdmin\": true\n\t\t},\n\t\t{\n\t\t\t\"id\": \"79001234568@c.us\",\n\t\t\t\"isAdmin\": true,\n\t\t\t\"isSuperAdmin\": false\n\t\t},\n\t\t{\n\t\t\t\"id\": \"79001234569@c.us\",\n\t\t\t\"isAdmin\": false,\n\t\t\t\"isSuperAdmin\": false\n\t\t}\n\t],\n\t\"subjectTime\": 1587737715,\n\t\"subjectOwner\": \"79001234567@c.us\",\n\t\"groupInviteLink\": \"https://chat.whatsapp.com/xxxxxxxxxxxxxxxxxxxxxx\"\n}"
+							"body": "{\n\t\"groupId\": \"79001234567-1587570015@g.us\",\n\t\"owner\": \"79001234567@c.us\",\n\t\"subject\": \"Basis API Group\",\n\t\"creation\": 1587570015,\n\t\"participants\": [\n\t\t{\n\t\t\t\"id\": \"79001234567@c.us\",\n\t\t\t\"isAdmin\": true,\n\t\t\t\"isSuperAdmin\": true\n\t\t},\n\t\t{\n\t\t\t\"id\": \"79001234568@c.us\",\n\t\t\t\"isAdmin\": true,\n\t\t\t\"isSuperAdmin\": false\n\t\t},\n\t\t{\n\t\t\t\"id\": \"79001234569@c.us\",\n\t\t\t\"isAdmin\": false,\n\t\t\t\"isSuperAdmin\": false\n\t\t}\n\t],\n\t\"subjectTime\": 1587737715,\n\t\"subjectOwner\": \"79001234567@c.us\",\n\t\"groupInviteLink\": \"https://chat.whatsapp.com/xxxxxxxxxxxxxxxxxxxxxx\"\n}"
 						}
 					]
 				},
@@ -2023,7 +2023,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [LeaveGroup](https://green-api.com/docs/api/groups/LeaveGroup/)"
+						"description": "Документация [LeaveGroup](https://cabinet.basis-api.com/docs/en/api/groups/LeaveGroup/)"
 					},
 					"response": [
 						{
@@ -2107,7 +2107,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SetGroupAdmin](https://green-api.com/docs/api/groups/SetGroupAdmin/)"
+						"description": "Документация [SetGroupAdmin](https://cabinet.basis-api.com/docs/en/api/groups/SetGroupAdmin/)"
 					},
 					"response": [
 						{
@@ -2191,7 +2191,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [RemoveGroupParticipant](https://green-api.com/docs/api/groups/RemoveGroupParticipant/)"
+						"description": "Документация [RemoveGroupParticipant](https://cabinet.basis-api.com/docs/en/api/groups/RemoveGroupParticipant/)"
 					},
 					"response": [
 						{
@@ -2275,7 +2275,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [RemoveAdmin](https://green-api.com/docs/api/groups/RemoveAdmin/)"
+						"description": "Документация [RemoveAdmin](https://cabinet.basis-api.com/docs/en/api/groups/RemoveAdmin/)"
 					},
 					"response": [
 						{
@@ -2341,7 +2341,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"groupName\": \"Group created by Green API\",\r\n    \"chatIds\": [\r\n        \"79001234568@c.us\",\r\n        \"79001234569@c.us\"\r\n    ]\r\n}\r\n",
+							"raw": "{\r\n\t\"groupName\": \"Group created by Basis API\",\r\n    \"chatIds\": [\r\n        \"79001234568@c.us\",\r\n        \"79001234569@c.us\"\r\n    ]\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2359,7 +2359,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [CreateGroup](https://green-api.com/docs/api/groups/CreateGroup/)"
+						"description": "Документация [CreateGroup](https://cabinet.basis-api.com/docs/en/api/groups/CreateGroup/)"
 					},
 					"response": [
 						{
@@ -2369,7 +2369,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n\t\"groupName\": \"Group created by Green API\",\r\n    \"chatIds\": [\r\n        \"79001234568@c.us\",\r\n        \"79001234569@c.us\"\r\n    ]\r\n}\r\n",
+									"raw": "{\r\n\t\"groupName\": \"Group created by Basis API\",\r\n    \"chatIds\": [\r\n        \"79001234568@c.us\",\r\n        \"79001234569@c.us\"\r\n    ]\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -2443,7 +2443,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [AddGroupParticipant](https://green-api.com/docs/api/groups/AddGroupParticipant/)"
+						"description": "Документация [AddGroupParticipant](https://cabinet.basis-api.com/docs/en/api/groups/AddGroupParticipant/)"
 					},
 					"response": [
 						{
@@ -2513,7 +2513,7 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/E:/GreenApi_docs/green-api-logo.png"
+									"src": "/E:/BasisApi_docs/basis-api-logo.png"
 								},
 								{
 									"key": "groupId",
@@ -2534,7 +2534,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SetGroupPicture](https://green-api.com/docs/api/account/SetGroupPicture/)"
+						"description": "Документация [SetGroupPicture](https://cabinet.basis-api.com/docs/en/api/account/SetGroupPicture/)"
 					},
 					"response": [
 						{
@@ -2634,7 +2634,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [ReadChat](https://green-api.com/docs/api/marks/ReadChat/)"
+						"description": "Документация [ReadChat](https://cabinet.basis-api.com/docs/en/api/marks/ReadChat/)"
 					},
 					"response": [
 						{
@@ -2718,7 +2718,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [ReadChat](https://green-api.com/docs/api/marks/ReadChat/)"
+						"description": "Документация [ReadChat](https://cabinet.basis-api.com/docs/en/api/marks/ReadChat/)"
 					},
 					"response": [
 						{
@@ -2818,7 +2818,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetDeviceInfo](https://green-api.com/docs/api/phone/GetDeviceInfo/)"
+						"description": "Документация [GetDeviceInfo](https://cabinet.basis-api.com/docs/en/api/phone/GetDeviceInfo/)"
 					},
 					"response": [
 						{
@@ -2909,7 +2909,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetContacts](https://green-api.com/docs/api/service/GetContacts/)"
+						"description": "Документация [GetContacts](https://cabinet.basis-api.com/docs/en/api/service/GetContacts/)"
 					},
 					"response": [
 						{
@@ -2975,7 +2975,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetContacts](https://green-api.com/docs/api/service/GetContacts/)"
+						"description": "Документация [GetContacts](https://cabinet.basis-api.com/docs/en/api/service/GetContacts/)"
 					},
 					"response": [
 						{
@@ -3053,7 +3053,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetContacts](https://green-api.com/docs/api/service/GetContacts/)"
+						"description": "Документация [GetContacts](https://cabinet.basis-api.com/docs/en/api/service/GetContacts/)"
 					},
 					"response": [
 						{
@@ -3129,7 +3129,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [SetProfilePicture](https://green-api.com/docs/api/account/SetProfilePicture/)"
+						"description": "Документация [SetProfilePicture](https://cabinet.basis-api.com/docs/en/api/account/SetProfilePicture/)"
 					},
 					"response": [
 						{
@@ -3219,7 +3219,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetAvatar](https://green-api.com/docs/api/service/GetAvatar/)"
+						"description": "Документация [GetAvatar](https://cabinet.basis-api.com/docs/en/api/service/GetAvatar/)"
 					},
 					"response": [
 						{
@@ -3303,7 +3303,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetAvatar](https://green-api.com/docs/api/service/GetAvatar/)"
+						"description": "Документация [GetAvatar](https://cabinet.basis-api.com/docs/en/api/service/GetAvatar/)"
 					},
 					"response": [
 						{
@@ -3387,7 +3387,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetAvatar](https://green-api.com/docs/api/service/GetAvatar/)"
+						"description": "Документация [GetAvatar](https://cabinet.basis-api.com/docs/en/api/service/GetAvatar/)"
 					},
 					"response": [
 						{
@@ -3471,7 +3471,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetAvatar](https://green-api.com/docs/api/service/GetAvatar/)"
+						"description": "Документация [GetAvatar](https://cabinet.basis-api.com/docs/en/api/service/GetAvatar/)"
 					},
 					"response": [
 						{
@@ -3555,7 +3555,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [GetAvatar](https://green-api.com/docs/api/service/GetAvatar/)"
+						"description": "Документация [GetAvatar](https://cabinet.basis-api.com/docs/en/api/service/GetAvatar/)"
 					},
 					"response": [
 						{
@@ -3639,7 +3639,7 @@
 								"{{apiTokenInstance}}"
 							]
 						},
-						"description": "Документация [CheckWhatsapp](https://green-api.com/docs/api/service/CheckWhatsapp/)"
+						"description": "Документация [CheckWhatsapp](https://cabinet.basis-api.com/docs/en/api/service/CheckWhatsapp/)"
 					},
 					"response": [
 						{
