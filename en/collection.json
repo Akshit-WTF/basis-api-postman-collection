@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "642a1e10-b091-481d-9f61-b4cf26ebb695",
+		"_postman_id": "5c9bed41-67eb-4e4a-901d-9cbe4fc2c2d9",
 		"name": "Basis API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "16921255"
+		"_exporter_id": "9136259"
 	},
 	"item": [
 		{
@@ -370,6 +370,64 @@
 							"path": [
 								"waInstance{{idInstance}}",
 								"qr",
+								"{{apiTokenInstance}}"
+							]
+						},
+						"description": "Документация [QR](https://cabinet.basis-api.com/docs/en/api/account/QR/)"
+					},
+					"response": []
+				},
+				{
+					"name": "Request registration code",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"phoneNumber\": 7123456789,\r\n    \"method\": \"sms\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/waInstance{{idInstance}}/requestRegistrationCode/{{apiTokenInstance}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"waInstance{{idInstance}}",
+								"requestRegistrationCode",
+								"{{apiTokenInstance}}"
+							]
+						},
+						"description": "Документация [QR](https://cabinet.basis-api.com/docs/en/api/account/QR/)"
+					},
+					"response": []
+				},
+				{
+					"name": "Send registration code",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"99999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/waInstance{{idInstance}}/sendRegistrationCode/{{apiTokenInstance}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"waInstance{{idInstance}}",
+								"sendRegistrationCode",
 								"{{apiTokenInstance}}"
 							]
 						},
@@ -1368,6 +1426,85 @@
 							],
 							"cookie": [],
 							"body": "{\n    \"idMessage\": \"3EB0160E742127137282\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Upload file",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "file",
+							"file": {}
+						},
+						"url": {
+							"raw": "{{host}}/waInstance{{idInstance}}/uploadFile/{{apiTokenInstance}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"waInstance{{idInstance}}",
+								"uploadFile",
+								"{{apiTokenInstance}}"
+							]
+						},
+						"description": "Документация [SendMessage](https://cabinet.basis-api.com/docs/en/api/sending/SendMessage/)"
+					},
+					"response": [
+						{
+							"name": "sendMessage",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\t\"chatId\": \"\",\r\n\t\"phoneNumber\": 79001234567,\r\n\t\"message\": \"Hello man\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/waInstance{{idInstance}}/sendMessage/{{apiTokenInstance}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"waInstance{{idInstance}}",
+										"sendMessage",
+										"{{apiTokenInstance}}"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.10.3"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 17 Apr 2020 13:14:58 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"idMessage\": \"3EB0C767D097B7C7C030\"\n}"
 						}
 					]
 				}
