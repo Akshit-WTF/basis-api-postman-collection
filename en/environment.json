@@ -4,7 +4,7 @@
 	"values": [
 		{
 			"key": "host",
-			"value": "https://api.basis-api.com",
+			"value": "https://en-api.basis-api.com",
 			"enabled": true
 		},
 		{
